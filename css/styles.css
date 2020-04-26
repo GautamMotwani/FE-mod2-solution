@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    border: 1px solid black;
+    margin: 10px;
+    /* margin-right: auto;
+    margin-left: auto; */
+    background-color: grey;
+    margin-bottom: 20px;
+    /* width: 90%; */
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    margin: auto;
+}
+h3 {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    text-align: center;
+    width: 120px;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+
+#head-chicken {
+    background-color: palevioletred;
+}
+
+#head-beef {
+    background-color: crimson;
+    color: white;
+}
+
+#head-sushi {
+    background-color: palegoldenrod;
+}
+
+p {
+    margin: 0px;
+    padding: 10px;
+    padding-top: 40px;
+}
+
+/******* Responsive Layout setup ********/
+.full-size {
+        width: 100%;
+    }
+@media (min-width: 992px) {
+    .col-lg {
+        float: left;
+        width: 33.3%;
+    }
+  }
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .col-md-1 {
+        float: left;
+        width: 50%;
+    }
+    .col-md-2 {
+        float: left;
+        width: 50%;
+    }
+    .col-md-3 {
+        float: left;
+        width: 100%;
+    }
+  }
+@media (max-width: 767px) {
+    .col-sm {
+        width: 90%;
+    }
+}
+/******* Responsive Setup Ends *********/
